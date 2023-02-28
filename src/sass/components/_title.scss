@@ -1,0 +1,12 @@
+@use "../variables" as v;
+
+.title{
+  margin: 0;
+
+  font-weight: 700;
+  font-size: 36px;
+
+  color: v.$primary2;
+
+  text-align: center;
+}

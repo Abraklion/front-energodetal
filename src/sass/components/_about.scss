@@ -1,0 +1,62 @@
+@use "../variables" as v;
+
+.about{
+  position: relative;
+  z-index: 1;
+
+  background-color: v.$bg-body;
+
+  &::before {
+    content: "";
+
+    width: 426px;
+    height: 573px;
+
+    position: absolute;
+    top: -45px;
+    left: -100px;
+    z-index: -1;
+
+    background-image: url(../img/big_left_ellipse.png);
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+.about__inner{
+  padding: 0 0 20px 0;
+}
+
+.about__title{
+  margin-bottom: 40px;
+}
+
+.about__img{
+  display: block;
+
+  margin-right: 30px;
+
+  box-shadow: 0 7px 16px 0 rgba(v.$primary2, 0.15);
+}
+
+.about__test{
+  margin-top: -4px;
+
+  font-size: 21px;
+  line-height: 25px;
+
+  color: v.$primary2;
+
+  p{
+    margin: 0 0 30px 0;
+  }
+
+  strong{
+    font-weight: 700;
+  }
+
+  b{
+    font-weight: 700;
+  }
+}

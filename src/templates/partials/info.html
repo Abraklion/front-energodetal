@@ -1,0 +1,36 @@
+<section class="info">
+  <div class="sContainer">
+
+    <div class="info__inner">
+
+      <h2 class="info__title title">{{ info.title }}</h2>
+
+      <p class="info__subtitle address">
+        {{info.subtitle}}
+        <a class="address__link address__link--fz-24" href="mailto:{{contacts.mail}}">{{ contacts.mail }}</a>
+      </p>
+
+      <div class="sRow sG-5">
+
+        {{#each info.list}}
+
+          <div class="sCol-md-4">
+
+            <div class="advantages">
+
+              <h3 class="advantages__title">{{ this.title }}</h3>
+
+              <p class="advantages__description">{{ this.description }}</p>
+
+            </div><!--/.advantages-->
+
+          </div>
+
+        {{/each}}
+
+      </div>
+
+    </div><!--/.info__inner-->
+
+  </div><!--/.container-->
+</section><!--/.info-->

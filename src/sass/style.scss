@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+// Шрифты
+@use "fonts";
+
+// Нормализация css
+@use "normalize";
+
+// Анимации
+@use 'animations';
+
+// Базовые настройки
+@use "core";
+
+// Служебные класы
+@use "service";
+
+// Блоки
+@use "components/container";
+@use "components/grid";
+@use "components/margin";
+
+@use "components/logo";
+@use "components/address";
+@use "components/title";
+@use "components/advantages";
+
+@use "components/header";
+@use "components/info";
+@use "components/gallery";
+@use "components/production";
+@use "components/about";
+@use "components/contacts";
+
+
+
+
+

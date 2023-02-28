@@ -1,0 +1,53 @@
+@use "../variables" as v;
+
+.advantages{
+  user-select: none;
+
+  height: 100%;
+  min-height: 160px;
+
+  padding: 25px 20px 25px;
+
+  background-color: v.$white;
+
+  border: 1px solid rgba(v.$primary2,0.16);
+
+  border-radius: 10px;
+
+  box-shadow: 0 4px 23px 0 rgba(v.$black, 0.1);
+
+  transition: color 0.2s ease,background-color 0.3s ease;
+
+  &:hover{
+    background-color: #0e2a68;
+
+    color: v.$white;
+
+    .advantages__title {
+      color: v.$white;
+    }
+  }
+}
+
+.advantages__title{
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 24px;
+
+  text-align: center;
+
+  color: v.$black;
+
+  margin: 0 0 16px 0;
+
+  transition: color 0.2s ease;
+}
+
+.advantages__description{
+  font-size: 15px;
+  line-height: 20px;
+
+  text-align: center;
+
+  margin: 0;
+}

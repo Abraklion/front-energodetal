@@ -1,0 +1,25 @@
+<section class="production">
+  <div class="sContainer">
+
+    <div class="production__inner">
+
+      <h2 class="production__title title">{{ production.title }}</h2>
+
+      <ul class="production__list">
+
+        {{#each production.list}}
+
+          <li class="production__item">
+
+            <h4 class="production__name">{{ this }}</h4>
+
+          </li>
+
+        {{/each}}
+
+      </ul>
+
+    </div><!--/.production__inner-->
+
+  </div><!--/.container-->
+</section><!--/.production-->

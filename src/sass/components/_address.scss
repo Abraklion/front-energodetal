@@ -1,0 +1,56 @@
+@use "../variables" as v;
+
+.address{
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+
+  &--header{
+    color: #373e4e;
+  }
+}
+
+.address__item{
+  margin-bottom: 5px;
+
+  font-size: 22px;
+  line-height: 22px;
+
+  color: v.$primary2;
+
+  .address--header &{
+    font-size: 16px;
+    line-height: 20px;
+
+    margin-bottom: 0;
+
+    &:nth-child(1) {
+      grid-row: 1 / 3;
+    }
+
+    &:nth-child(n+2):nth-child(-n+3)  {
+      text-align: right;
+    }
+  }
+}
+
+.address__link{
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 22px;
+
+  color: v.$primary1;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &--decoration-none{
+    text-decoration: none;
+  }
+
+  &--fz-24{
+    font-size: 24px;
+  }
+}

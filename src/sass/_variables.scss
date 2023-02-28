@@ -1,0 +1,34 @@
+//-----===== Базовые переменные ====-----//
+
+// префикс
+$prefix: 's';
+
+// Стили шрифтов по умолчанию
+$font-style-basic: normal;
+$font-weight-basic: 300;
+$font-size-basic: 16px;
+$font-family-basic: "Roboto", sans-serif;
+
+$line-height-basic: 1.5;
+
+// метод разработки " mobile-first | desktop-first"
+$orientation: 'mobile-first';
+// максимальная ширина контейнера для desktop-first
+$width-container: 1200px;
+
+// Контрольные точки
+$container: (
+  sm: (breakpoint: 576px, max-width: 540px),
+  md: (breakpoint: 768px, max-width: 720px),
+  lg: (breakpoint: 992px, max-width: 960px),
+  xl: (breakpoint: 1030px, max-width: 1024px)
+);
+
+// Цвета
+$white: #ffffff;
+$black: #000000;
+
+$primary1: #ff491b;
+$primary2: #1b2b4f;
+
+$bg-body: #fbfcff;

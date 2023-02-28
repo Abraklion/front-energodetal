@@ -1,0 +1,29 @@
+<section class="gallery">
+  <div class="sContainer">
+
+    <div class="gallery__inner">
+
+      <h2 class="gallery__title title">{{ gallery.title }}</h2>
+
+      <div class="sRow sG-3">
+
+        {{#each gallery.list}}
+
+          <div class="sCol-6 sCol-md-3">
+
+            <a class="gallery__item" href="assets/img/{{ this.img }}" data-fancybox>
+
+              <img class="gallery__img" src="assets/img/{{ this.preview }}" width="236" height="172" alt="">
+
+            </a><!--/.gallery__item-->
+
+          </div>
+
+        {{/each}}
+
+      </div>
+
+    </div><!--/.gallery__inner-->
+
+  </div><!--/.container-->
+</section><!--/.gallery-->

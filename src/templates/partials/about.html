@@ -1,0 +1,42 @@
+<section class="about">
+  <div class="sContainer">
+
+    <div class="about__inner">
+
+      <h2 class="about__title title">{{ about.title }}</h2>
+
+      <div class="sRow sGx-0">
+
+          <div class="sCol-md-5">
+
+            <img class="about__img" src="assets/img/about-img.jpg" width="376" height="282" alt="">
+
+          </div>
+
+          <div class="sCol-md-7">
+
+            <div class="about__test">
+              <p>{{ about.description }}</p>
+              <p>
+                Мы поставляли продукцию на крупные предприятия:
+
+                {{#each about.list-companies}}
+
+                <strong>{{ this }}</strong>,
+
+                {{/each}}
+              </p>
+              <p class="address">
+                <b>Отзывы о нас</b> от этих компаний можно запросить у коммерческого директора по почте:
+                <a class="address__link" href="mailto:{{contacts.mail}}">{{ contacts.mail }}</a>
+              </p>
+            </div>
+
+          </div>
+
+      </div>
+
+    </div><!--/.about__inner-->
+
+  </div><!--/.container-->
+</section><!--/.about-->

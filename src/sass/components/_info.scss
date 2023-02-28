@@ -1,0 +1,45 @@
+@use "../variables" as v;
+
+.info{
+  position: relative;
+  z-index: 1;
+
+  background-color: v.$bg-body;
+
+  &::before {
+    content: "";
+
+    width: 298px;
+    height: 694px;
+
+    position: absolute;
+    top: 80px;
+    right: 0;
+    z-index: -1;
+
+    background-image: url(../img/main_intro_ellipse.png);
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+  }
+}
+
+.info__inner{
+  padding: 50px 0 10px 0;
+}
+
+.info__title{
+
+}
+
+.info__subtitle{
+  margin-bottom: 60px;
+
+  font-size: 24px;
+
+  color: v.$primary2;
+
+  text-align: center;
+}

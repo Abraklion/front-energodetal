@@ -1,0 +1,70 @@
+{
+  "title": "Фото производства, офиса и склада",
+
+  "list": [
+    {
+      "img": "1.jpg",
+      "preview": "1-preview.jpg"
+    },
+    {
+      "img": "2.jpg",
+      "preview": "2-preview.jpg"
+    },
+    {
+      "img": "3.jpg",
+      "preview": "3-preview.jpg"
+    },
+    {
+      "img": "4.jpg",
+      "preview": "4-preview.jpg"
+    },
+    {
+      "img": "5.jpg",
+      "preview": "5-preview.jpg"
+    },
+    {
+      "img": "6.jpg",
+      "preview": "6-preview.jpg"
+    },
+    {
+      "img": "7.jpg",
+      "preview": "7-preview.jpg"
+    },
+    {
+      "img": "8.jpg",
+      "preview": "8-preview.jpg"
+    },
+    {
+      "img": "9.jpg",
+      "preview": "9-preview.jpg"
+    },
+    {
+      "img": "10.jpg",
+      "preview": "10-preview.jpg"
+    },
+    {
+      "img": "11.jpg",
+      "preview": "11-preview.jpg"
+    },
+    {
+      "img": "12.jpg",
+      "preview": "12-preview.jpg"
+    },
+    {
+      "img": "13.jpg",
+      "preview": "13-preview.jpg"
+    },
+    {
+      "img": "14.jpg",
+      "preview": "14-preview.jpg"
+    },
+    {
+      "img": "15.jpg",
+      "preview": "15-preview.jpg"
+    },
+    {
+      "img": "16.jpg",
+      "preview": "16-preview.jpg"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+<header class="header">
+
+  <div class="sContainer">
+
+    <div class="header__inner">
+
+      <a href="" class="header__logo logo">
+          <img class="logo__img" src="assets/img/{{ header.logo }}" width="307" height="47" alt="Логотип Энерго деталь">
+      </a><!--/.logo-->
+
+      <ul class="header__address address address--header">
+        <li class="address__item">
+          <a class="address__link" href="mailto:{{contacts.mail}}">{{ contacts.mail }}</a>
+          <br>
+          Почта для заявок
+        </li>
+        <li class="address__item">
+          <a class="address__link address__link--decoration-none" href="tel:{{contacts.phone}}">{{ contacts.phone }}</a>
+        </li>
+        <li class="address__item">
+          {{ contacts.address }}
+        </li>
+      </ul>
+
+    </div><!--/.header__inner-->
+
+  </div><!--/.container-->
+</header><!--/.header-->

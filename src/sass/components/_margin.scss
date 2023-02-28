@@ -1,0 +1,10 @@
+@use "../variables" as v;
+@use "../library/sumbiot/general/mixins" as m;
+
+// Низ
+
+.#{v.$prefix}Mb {
+  @include m.rulesBreakpoint(v.$container,(
+    margin-bottom: 40px
+  ),'40', v.$orientation);
+}

@@ -1,0 +1,38 @@
+@use "../variables" as v;
+
+.gallery{
+  background-color: v.$bg-body;
+}
+
+.gallery__inner{
+  padding: 50px 0;
+}
+
+.gallery__title{
+  margin-bottom: 50px;
+}
+
+.gallery__item{
+  user-select: none;
+
+  display: block;
+
+  text-decoration: none;
+
+  box-shadow: 0 4px 16px 0 rgba(v.$black, 0.20);
+
+  filter: contrast(100%);
+
+  transition: box-shadow 0.3s ease, filter 0.3s ease;
+
+  &:hover{
+    box-shadow: none;
+    filter: contrast(110%);
+  }
+}
+
+.gallery__img{
+  display: block;
+
+  width: 100%;
+}

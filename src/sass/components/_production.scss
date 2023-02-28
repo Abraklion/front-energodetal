@@ -1,0 +1,39 @@
+@use "../variables" as v;
+
+.production{
+  background-color: v.$bg-body;
+}
+
+.production__inner{
+  padding: 50px 0;
+}
+
+.production__title{
+  margin-bottom: 50px;
+}
+
+.production__list{
+  column-count: 2;
+  column-width: 200px;
+  column-gap: 60px;
+
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+
+  color: v.$primary2;
+}
+
+.production__item{
+  font-size: 22px;
+  line-height: 32px;
+
+  letter-spacing: 0.8px;
+}
+
+.production__name{
+  margin: 0;
+
+  font-weight: 300;
+}

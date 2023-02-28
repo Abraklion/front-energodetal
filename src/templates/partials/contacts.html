@@ -1,0 +1,49 @@
+<section class="contacts">
+  <div class="sContainer">
+
+    <div class="contacts__inner">
+
+      <h2 class="contacts__title title">{{ contacts.title }}</h2>
+
+      <div class="sRow">
+
+        <div class="sCol-md-6 js-parent-map"></div>
+
+        <div class="sCol-md-6">
+
+          <ul class="contacts__list address">
+
+            <li class="address__item">
+              Тел:
+              <a class="address__link address__link--decoration-none" href="tel:{{contacts.phone}}">{{ contacts.phone }}</a>
+            </li>
+            <li class="address__item">
+              E-mail:
+              <a class="address__link" href="mailto:{{contacts.mail}}">{{ contacts.mail }}</a>
+            </li>
+            <li class="address__item">
+              {{ contacts.address }}
+            </li>
+
+          </ul>
+
+          <p class="contacts__mode">Режим работы:</p>
+
+          <ul class="contacts__list address">
+            {{#each contacts.mode}}
+
+              <li class="address__item">
+                {{ this }}
+              </li>
+
+            {{/each}}
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div><!--/.contacts__inner-->
+
+  </div><!--/.container-->
+</section><!--/.contacts-->
